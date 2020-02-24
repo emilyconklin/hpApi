@@ -17,7 +17,7 @@ fetch(url)
       <img src="${story.image}" class="card-img">
       <h2>${story.name}</h2>
       </div>
-      <div class="flip-card-back">
+      <div class="flip-card-back ${story.house}">
         <h2>${story.name}</h2>
        <p>Species: ${story.species}</p>
         <p>Gender: ${story.gender}</p>
