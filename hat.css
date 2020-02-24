@@ -14,8 +14,8 @@ main {
   margin-top: 70px;
   margin-bottom: 2rem;
   background-image: url(hallows.jpg);
-  background-size: 100%;
-  background-position: left;
+  background-size: 60%;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -118,13 +118,13 @@ main {
 
 .flip-card {
   background-color: transparent;
-  width: 200px;
+  min-width: 200px;
   height: 300px;
   padding: 1rem;
   perspective: 1000px;
   letter-spacing: .15em;
-  margin-bottom: 20px;
-  margin-left: 1rem;
+margin: auto;
+margin-bottom: 1rem;
 }
 
 /* This container is needed to position the front and back side */
@@ -189,15 +189,19 @@ h2 {
   text-align: center;
 }
 
+.Gryffindor {
+  background:#a10705;
+}
 
+.Slytherin {
+  background-color: #0e520e;
+}
 
-@media (orientation: portrait) {
+.Hufflepuff {
+  background-color: goldenrod;
+  color: black;
+}
 
-  .flip-card {
-    margin-left: 0;
-  }
-
-  .text-bubble {
-    display: none;
-  }
+.Ravenclaw {
+  background-color: #000752;
 }
