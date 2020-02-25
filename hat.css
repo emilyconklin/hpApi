@@ -218,6 +218,14 @@ h2 {
 
 @media (orientation: portrait) {
   .text-bubble {
-    display: none;
+    /* display: none; */
+  }
+
+  .hat {
+    width: 200px;
+  }
+
+  .text-bubble {
+    width: 200px;
   }
 }
