@@ -228,4 +228,8 @@ h2 {
   .text-bubble {
     width: 320px;
   }
+
+  main {
+    background-image: none;
+  }
 }
