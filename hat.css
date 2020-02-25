@@ -1,7 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body {
   background-color: black;
   margin: 0;
   padding: 0;
+  
 }
 
 main {
@@ -118,13 +124,13 @@ main {
 
 .flip-card {
   background-color: transparent;
-  min-width: 200px;
-  height: 300px;
-  padding: 1rem;
+  min-width: 240px;
+  height: 350px;
   perspective: 1000px;
   letter-spacing: .15em;
-margin: auto;
-margin-bottom: 1rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  
 }
 
 /* This container is needed to position the front and back side */
@@ -153,13 +159,15 @@ margin-bottom: 1rem;
   /* Safari */
   backface-visibility: hidden;
   padding: 1rem;
+  border-radius: .5rem;
 }
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   background-color: #333;
   color: white;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
+ 
 }
 
 /* Style the back side */
@@ -167,6 +175,7 @@ margin-bottom: 1rem;
   background-color: #333;
   color: white;
   transform: rotateY(180deg);
+  padding: 1rem;
 }
 
 .container {
@@ -187,14 +196,15 @@ margin-bottom: 1rem;
 
 h2 {
   text-align: center;
+  letter-spacing: 5px;
 }
 
 .Gryffindor {
-  background:#a10705;
+  background: #a10705;
 }
 
 .Slytherin {
-  background-color: #0e520e;
+  background-color: #0d290e;
 }
 
 .Hufflepuff {
@@ -203,5 +213,5 @@ h2 {
 }
 
 .Ravenclaw {
-  background-color: #000752;
+  background-color: #05092e;
 }
