@@ -124,7 +124,7 @@ main {
 
 .flip-card {
   background-color: transparent;
-  min-width: 270px;
+  min-width: 250px;
   height: 350px;
   perspective: 1000px;
   letter-spacing: .15em;
@@ -204,7 +204,7 @@ h2 {
 }
 
 .Slytherin {
-  background-color: #0a910c;
+  background-color: #08a30a;
   color: black;
 }
 
@@ -214,7 +214,7 @@ h2 {
 }
 
 .Ravenclaw {
-  background-color: #05092e;
+  background-color: #06005e;
 }
 
 @media (orientation: portrait) {
