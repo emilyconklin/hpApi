@@ -1,4 +1,4 @@
-let fetchUrl = 'http://hp-api.herokuapp.com/api/characters';
+let fetchUrl = 'https://hp-api.herokuapp.com/api/characters';
 const cardText = document.querySelector('.container');
 const url = fetchUrl
 
