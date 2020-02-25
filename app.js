@@ -2,6 +2,8 @@ let fetchUrl = 'http://hp-api.herokuapp.com/api/characters';
 const cardText = document.querySelector('.container');
 const url = fetchUrl
 
+
+
 fetch(url)
   .then(data => data.json())
   .then(data => {
