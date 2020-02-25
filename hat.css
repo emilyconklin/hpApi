@@ -215,3 +215,9 @@ h2 {
 .Ravenclaw {
   background-color: #05092e;
 }
+
+@media (orientation: portrait) {
+  .text-bubble {
+    display: none;
+  }
+}
