@@ -124,7 +124,7 @@ main {
 
 .flip-card {
   background-color: transparent;
-  min-width: 270px;
+  min-width: 250px;
   height: 350px;
   perspective: 1000px;
   letter-spacing: .15em;
@@ -175,7 +175,7 @@ main {
   background-color: #333;
   color: white;
   transform: rotateY(180deg);
-  padding: 1rem;
+  padding: .7rem;
 }
 
 .container {
@@ -225,6 +225,8 @@ h2 {
   .text-bubble {
     /* display: none; */
   }
+  
+  
 
   .hat {
     width: 200px;
