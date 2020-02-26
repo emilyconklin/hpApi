@@ -125,7 +125,7 @@ main {
 .flip-card {
   background-color: transparent;
   min-width: 250px;
-  height: 350px;
+  height: 370px;
   perspective: 1000px;
   letter-spacing: .15em;
   margin: auto;
