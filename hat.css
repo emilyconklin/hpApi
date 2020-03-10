@@ -164,7 +164,7 @@ main {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: rgb(28, 3, 82);
+  background-color: #38124d;
   color: goldenrod;
   letter-spacing: 5px;
   text-align: center;
