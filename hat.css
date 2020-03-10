@@ -164,7 +164,8 @@ main {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #38124d;
+  background: url('card-bg.jpg');
+  background-size: cover;
   color: goldenrod;
   letter-spacing: 5px;
   text-align: center;
@@ -194,6 +195,7 @@ main {
   object-fit: cover;
   object-position: top;
   margin: auto;
+  margin-top: 10px;
   border-radius: 50%;
 }
 
