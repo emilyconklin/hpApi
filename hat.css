@@ -7,20 +7,30 @@ body {
   background-color: black;
   margin: 0;
   padding: 0;
+  color: white;
+  /* background-image: url(hallows.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; */
 }
 
 header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
   max-width: 70%;
   margin: auto;
-  margin-top: 70px;
-  /* background-image: url(hallows.jpg);
-  background-size: 60%;
-  background-position: center;
-  background-repeat: no-repeat; */
+  text-align: center;
+
+}
+
+h1 {
+  margin-bottom: 4rem;
+  font-size: 3rem;
+  font-family: 'Henny Penny';
+  letter-spacing: 5px;
+}
+
+.fa-star {
+  font-size: 2rem;
 }
 
 main {
@@ -39,6 +49,7 @@ main {
   animation-iteration-count: infinite;
   max-height: 300px;
   margin: auto;
+  display: block;
 
 }
 
