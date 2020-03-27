@@ -264,6 +264,10 @@ input {
   .text-bubble {
     /* display: none; */
   }
+
+  h1 {
+    font-size: 2rem;
+  }
   
   main {
     background-image: inherit;
