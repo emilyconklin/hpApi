@@ -29,10 +29,6 @@ h1 {
   letter-spacing: 5px;
 }
 
-.fa-star {
-  font-size: 2rem;
-}
-
 main {
   color: goldenrod;
   padding: 1rem;
@@ -271,6 +267,7 @@ input {
   
   main {
     background-image: inherit;
+    font-size: 1rem;
   }
 
   .hat {
